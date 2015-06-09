@@ -1,0 +1,40 @@
+[09-Jun-2015 00:41:36 UTC] PHP Parse error:  syntax error, unexpected '>' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/template.php on line 509
+[09-Jun-2015 02:44:29 UTC] PHP Warning:  include(/Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/advanced-cache.php): failed to open stream: No such file or directory in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php on line 65
+[09-Jun-2015 02:44:29 UTC] PHP Warning:  include(): Failed opening '/Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/advanced-cache.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.7/lib/php') in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php on line 65
+[09-Jun-2015 02:44:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-login.php on line 425
+[09-Jun-2015 02:44:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-login.php on line 438
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  include(/Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/advanced-cache.php): failed to open stream: No such file or directory in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php on line 65
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  include(): Failed opening '/Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/advanced-cache.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.7/lib/php') in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php on line 65
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-login.php on line 425
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-login.php on line 438
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/pluggable.php on line 925
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/pluggable.php on line 926
+[09-Jun-2015 02:44:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-settings.php:65) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/pluggable.php on line 927
+[09-Jun-2015 03:29:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:29:21 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:32:22 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:35:34 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:35:46 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:35:47 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:35:49 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:02 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:04 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:18 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:19 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:36:20 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 1
+[09-Jun-2015 03:39:12 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 3
+[09-Jun-2015 03:39:21 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 3072 bytes) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/load.php on line 164
+[09-Jun-2015 03:39:23 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 3072 bytes) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-includes/load.php on line 164
+[09-Jun-2015 03:43:52 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 2
+[09-Jun-2015 03:44:01 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 2
+[09-Jun-2015 03:44:02 UTC] PHP Parse error:  syntax error, unexpected '?' in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/.maintenance on line 2
+[09-Jun-2015 03:44:17 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:44:18 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:44:19 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:44:47 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:46:25 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:46:27 UTC] PHP Parse error:  syntax error, unexpected 'World' (T_STRING) in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 3
+[09-Jun-2015 03:48:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 17
+[09-Jun-2015 03:48:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 17
+[09-Jun-2015 03:48:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /Users/jamiehutson/Desktop/GitHub/sarasotagop.com/wp-content/maintenance.php on line 17

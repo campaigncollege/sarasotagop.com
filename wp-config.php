@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'Tyn6Vqt<b1fW_|P XqVpB){Vs#<q. S/;IzVl= mB6,Puxn!:*3ydP,k>=-p>8r#');
-define('SECURE_AUTH_KEY',  'zR@*GM>F`5^OL<ptq7bC|)(y{_Rm:$-hF+gN,$G4+6yOOfmxv_o$5LG%|a9;ArSd');
-define('LOGGED_IN_KEY',    '<{8>0c79~BFuCb9f;F,q^Ioo+P+%ttyrUv:KB$OS|n1Z +b lyLpTbUH9(~q}oLQ');
-define('NONCE_KEY',        '1V2`x1Iop0Wgehl6W:QB=Z{ys15(VLAfL~R[~G?+-pJ8L%J!L-;.HrK#a/`ERWry');
-define('AUTH_SALT',        '8K>i=APCL&WbTE4d}s!k+W+rL1!2Ds2:JExG^:j+3i6u6{v:}=yCM;&!LHkr-0[i');
-define('SECURE_AUTH_SALT', 'i%,JzA[f}cm-I,Z-}rYOoi4->~#EgCNb;<c{ZQ|q74iw/;3lM y3hOPt z-s%4P-');
-define('LOGGED_IN_SALT',   'yv3-O+M+-5>QiI*_;H,`Aut1k|.!3rV9Ly=L}MX5.ISq38+cDd^EATeK|s^AQA[C');
-define('NONCE_SALT',       '+}]~l-Ntp-%;T[W!4-0mP>3IAO_GvAqGuq@POIug-))IMW}G(.a98Bz3}?omeQbC');
+define('AUTH_KEY',         'w|62uG-@+-BSW09 A=F~!#V]23-<.5n|W)eH%Z{/l+C+P1R$wHxv>Xg&TVV;|x|~');
+define('SECURE_AUTH_KEY',  ']:!rG+3AUD-jfdEP,p+ JWn54ETekN[ztE*a)$&xLb.EE!L5uQI+#a/W:quj+mGw');
+define('LOGGED_IN_KEY',    'zR5E^[<^8TV[0.=&GR[X+>+b4Y[kxMi_L+&<.8zx3Jm_xh[Zmm)K/p3u{-,d9yy=');
+define('NONCE_KEY',        '@wc;808TQLJ,@tM3p-;(@QoxMA.Se=!J=tD+uShZ#[q<#q$M++kOMt14Ffe9evA,');
+define('AUTH_SALT',        'Kg-r Mf6/GwJpb$7-Zx8;b`8<O %9O+Wgw56_$KrA +kTb[K#+^^=rB8Ll)pyUCl');
+define('SECURE_AUTH_SALT', 'rZ>(/E`|8NOU&o]1orNp;!N1zll85-3JpM8w#N^^`.7_X*!I*Q*=NTx+Rz=!0(S_');
+define('LOGGED_IN_SALT',   'Y!S{#{n#jWP~(f/(2_l=2JqGs-x[>jqc{s9!/eSuRYZ8`/@:Au_ot}&@Y02Y2@0u');
+define('NONCE_SALT',       'xhlG,y;m9.O<Kjd$Ih/oQYr0F4NVUkF^.&Tou-}] [zdo(0}h4@q,R|/+Gl7ezbQ');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT',       '+}]~l-Ntp-%;T[W!4-0mP>3IAO_GvAqGuq@POIug-))IMW}G(.a9
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'gop_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -68,7 +68,19 @@ $table_prefix  = 'wp_';
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define ('WP_DEBUG', true);
+define ( 'WP_AUTO_UPDATE_CORE', true);
+define ( 'WP_POST_REVISIONS', false);
+define ( 'AUTOSAVE_INTERVAL', 300);
+@ini_set ('log_errors','On');
+@ini_set ('display_errors','Off');
+@ini_set ('error_log','php_error.log');
+/**
+define ('WP_CACHE', 'true');
+*/
+define ('EMPTY_TRASH_DAYS', 7);
+define ('WP_ALLOW_MULTISITE', 'true' );
+
 
 /* That's all, stop editing! Happy blogging. */
 
