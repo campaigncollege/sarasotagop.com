@@ -82,6 +82,17 @@ define ('EMPTY_TRASH_DAYS', 7);
 define ('WP_ALLOW_MULTISITE', 'true' );
 
 
+if ( file_exists( dirname( _FILE_ ) . '/local-config.php'
+	include( dirname( _FILE_ ) . '/local-config.php' );
+	define( 'WP_LOCAL_DEV', true );
+	} else {
+	define('DB_NAME', 'gop');
+	define('DB_USER', 'root');
+    define('DB_PASSWORD', 'root');
+    define('DB_HOST', 'localhost');
+    }
+
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
